@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Starport Supply Co.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="top"><h1>Starport Supply Co.</h1><button id="cart-toggle">Cart</button></header>
+  <main id="catalog"></main>
+  <aside id="cart"></aside>
+  <script type="module" src="src/main.ts"></script>
+  <script>
+    window.addEventListener('error', function reportError(e) {
+      if (navigator.sendBeacon) navigator.sendBeacon('/api/errors', String(e.message));
+    });
+  </script>
+</body>
+</html>

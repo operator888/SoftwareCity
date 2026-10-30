@@ -1,0 +1,78 @@
+{
+  "name": "software-city",
+  "version": "1.1.0",
+  "description": "Source code as a 3D blueprint city, with the bugs found in it. Pattern library of 98 patterns with real-code demos. Free for noncommercial use; commercial licence available.",
+  "private": false,
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/operator888/SoftwareCity.git",
+    "directory": "SoftwareCity/web"
+  },
+  "homepage": "https://softwarecity.eu",
+  "bugs": "https://github.com/operator888/SoftwareCity/issues",
+  "author": {
+    "name": "Theodor Dimitriou",
+    "email": "theodoros@ecommercewebservices.de"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "prebuild": "node scripts/inline-starport.js",
+    "build": "node scripts/build.js --mode=production",
+    "build:library": "node scripts/build-library.js",
+    "pretest": "node scripts/inline-starport.js",
+    "test": "node --test --test-reporter=spec tests/",
+    "test:watch": "node --test --watch tests/",
+    "test:coverage": "node --test --experimental-test-coverage tests/",
+    "lint": "eslint src tests scripts",
+    "format": "prettier --write \"src/**/*.{js,css}\" \"tests/**/*.js\" \"scripts/**/*.js\"",
+    "validate:library": "node scripts/validate-library.js",
+    "validate:library:pattern": "node scripts/validate-library.js --pattern",
+    "fetch:fonts": "node scripts/fetch-fonts.js",
+    "check": "npm test && npm run lint && npm run validate:library && npm run build"
+  },
+  "dependencies": {
+    "dagre": "0.8.5",
+    "three": "0.161.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.21.5",
+    "eslint": "9.13.0",
+    "prettier": "3.3.3",
+    "@eslint/js": "9.13.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions"
+  ],
+  "files": [
+    "dist",
+    "LICENSE.md",
+    "LICENSE/COMMERCIAL.md",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md"
+  ],
+  "keywords": [
+    "code-visualization",
+    "3d",
+    "three.js",
+    "design-patterns",
+    "architecture",
+    "ddd",
+    "game-programming",
+    "source-available",
+    "code-smells",
+    "privacy",
+    "offline"
+  ],
+  "funding": {
+    "type": "commercial",
+    "url": "LICENSE/COMMERCIAL.md"
+  }
+}

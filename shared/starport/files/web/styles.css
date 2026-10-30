@@ -1,0 +1,19 @@
+:root {
+  --hull: #1b2a3a;
+  --thruster: #ff9a3c;
+  --panel: #f3efe6;
+  --gap: 12px;
+}
+body { margin: 0; font-family: system-ui; background: var(--hull); color: var(--panel); }
+header { display: flex; justify-content: space-between; padding: var(--gap); }
+#catalog { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--gap); padding: var(--gap); }
+.card { border: 1px solid #ffffff22; padding: var(--gap); border-radius: 6px; transition: transform .2s; }
+.card:hover { transform: translateY(-2px); }
+.card button { background: var(--thruster); border: 0; padding: 6px 10px; color: #111; }
+#cart { position: fixed; right: 0; top: 0; bottom: 0; width: 320px; transform: translateX(100%); transition: transform .3s; background: #0f1823; }
+#cart.open { transform: none; }
+@media (max-width: 600px) {
+  #cart { width: 100%; }
+  #catalog { grid-template-columns: 1fr; }
+}
+@keyframes pulse { from { opacity: .6; } to { opacity: 1; } }

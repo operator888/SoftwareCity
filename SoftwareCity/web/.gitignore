@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.cache/
+.parcel-cache/
+.eslintcache
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.tsbuildinfo
+coverage/
+.nyc_output/
+src/data/library/.cache/
+test-results/
+assets/fonts/*.tmp
+
+# Generated from ../../shared/ by scripts/build.js and scripts/inline-starport.js
+src/data/_generated/
+
+# npm pack output
+*.tgz
