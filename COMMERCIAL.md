@@ -22,6 +22,22 @@ detectors, the pattern library, or any work based on them), for example:
 
 If you are unsure, ask. Small cases are usually quick and cheap to settle.
 
+## Forks and products built on Software City
+
+Anyone may fork Software City and use the fork free of charge for
+noncommercial purposes, keeping the licence and the `Required Notice:`
+credit lines. Selling a fork, or Software City itself, or any product or
+service that contains, is built on or is derived from it (for example a paid
+app, plugin, course, hosted or subscription service), needs a **signed
+commercial licence agreement before the first sale**.
+
+For products and services that are sold, the licence fee is normally a
+**commission on each sale**: an agreed percentage of the net revenue from
+every sale or subscription payment, reported and paid quarterly, with the
+right to audit the sales figures. A minimum fee or a one-off fee can be
+agreed instead for internal use or small cases. Selling without a signed
+agreement is a breach of the licence and of copyright.
+
 ## How to get one
 
 Email **theodoros@ecommercewebservices.de** with:
@@ -30,7 +46,8 @@ Email **theodoros@ecommercewebservices.de** with:
 - a short description of what you want to do with Software City,
 - the number of developers, deployments and end users involved (estimates are fine),
 - whether you redistribute Software City in a product or use it internally,
-- the term you prefer (annual, perpetual, or per project).
+- the term you prefer (annual, perpetual, or per project),
+- if you sell a product or service: the expected price, sales channels and volume.
 
 You get a quote and a standard licence agreement back, typically within two
 business days. Custom terms are available for OEM, embedded and SaaS use.

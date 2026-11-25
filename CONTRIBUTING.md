@@ -7,11 +7,15 @@ Thank you for helping. Issues and pull requests of any size are welcome.
 Software City is dual-licensed: free for noncommercial use, paid for commercial
 use. That only works if the project can offer every contribution under both
 licences. So each contributor agrees once to the
-[Contributor Licence Agreement](CLA.md) by ticking its box in the
-pull-request template (or writing "I agree to the Software City CLA" in the pull
-request). You keep the copyright in your work; you give the project the
-right to license it, including commercially. Pull requests without the CLA
-agreement cannot be merged.
+[Contributor Licence Agreement](CLA.md). When you open your first pull
+request, the **CLA Assistant** bot asks you to comment
+`I have read the CLA Document and I hereby sign the CLA`; that records your
+signature for all your future pull requests too.
+
+In short: your contribution becomes part of Software City and may be used in
+its free and paid editions; you receive no payment or revenue share for it;
+you keep the right to use your own code elsewhere. Pull requests without a
+signed CLA cannot be merged.
 
 ## Ground rules
 

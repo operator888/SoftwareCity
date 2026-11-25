@@ -8,7 +8,7 @@ By participating you agree to the Contributor Covenant in `CODE_OF_CONDUCT.md`.
 
 ## Licence and CLA
 
-Software City is dual-licensed (PolyForm Noncommercial 1.0.0 for noncommercial use, plus a paid commercial licence). So that contributions can be offered under both, every contributor agrees to the Contributor Licence Agreement in `CLA.md` at the repository root, once, by ticking the box in the pull-request template. You keep the copyright in your contribution and are credited in the changelog.
+Software City is dual-licensed (PolyForm Noncommercial 1.0.0 for noncommercial use, plus a paid commercial licence). So that contributions can be offered under both, every contributor signs the Contributor Licence Agreement in `CLA.md` at the repository root once, by commenting `I have read the CLA Document and I hereby sign the CLA` when the CLA Assistant bot asks on their first pull request. Contributions become part of Software City and may be used in its free and paid editions, without payment or revenue share; contributors keep the right to use their own code elsewhere and are credited in the changelog.
 
 The dual licence exists so that the project can fund further development while staying free for personal, study, research and educational-institution use.
 

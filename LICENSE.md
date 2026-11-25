@@ -14,8 +14,10 @@ pattern library, detector catalogue, family table and starport sample in
 2. **A paid commercial licence** for every other use: use inside a company
    (including internal tools), in a product or service that is sold,
    subscribed to or carries advertising, as a hosted service, or in paid
-   training. See `COMMERCIAL.md` (`LICENSE/COMMERCIAL.md` inside the web
-   app's npm package).
+   training. This includes forks and any product or service derived from
+   Software City: selling one requires a signed agreement with the licensor
+   first, normally with a commission on each sale. See `COMMERCIAL.md`
+   (`LICENSE/COMMERCIAL.md` inside the web app's npm package).
 
 **Credit.** Every copy, fork and redistribution of any part of Software City must
 carry this licence (or its URL) and the `Required Notice:` lines below, as
