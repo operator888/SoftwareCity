@@ -64,6 +64,13 @@ PolyForm Noncommercial is *source-available*: you can read, run, change and
 share the code for noncommercial purposes, but it is not an OSI-approved
 open-source licence, because commercial use is reserved.
 
+## Community
+
+Questions, ideas and screenshots of your city go to
+[Discussions](https://github.com/operator888/SoftwareCity/discussions).
+The user guide is in the [wiki](https://github.com/operator888/SoftwareCity/wiki),
+and the plans are on the [roadmap board](https://github.com/operator888/SoftwareCity/projects).
+
 ## Contributing
 
 Contributions are welcome: parser fixes for real code, new detectors, fewer

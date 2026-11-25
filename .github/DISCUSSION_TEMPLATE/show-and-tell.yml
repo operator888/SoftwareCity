@@ -1,0 +1,20 @@
+title: "[Show and tell] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Show us your city! Screenshots, short videos, before/after refactorings, or the bug that Software City helped you find.
+        Make sure you are allowed to share what is in the picture.
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: Name or link, if it is public.
+  - type: textarea
+    id: show
+    attributes:
+      label: What are you showing?
+      description: Drag screenshots or a video in here and tell the story.
+    validations:
+      required: true

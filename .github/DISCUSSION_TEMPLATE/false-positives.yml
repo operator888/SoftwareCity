@@ -1,0 +1,61 @@
+title: "[False positive] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A detector flagged code that is fine? That is a bug in Software City, and one of the most useful reports you can send.
+        **Please remove anything private** (names, secrets, proprietary logic) before posting code.
+  - type: dropdown
+    id: detector
+    attributes:
+      label: Detector
+      options:
+        - Long Function
+        - Deep Nesting
+        - High Cyclomatic Complexity
+        - Recursion Without Clear Base Case
+        - God Object
+        - Leaky Encapsulation
+        - Refused Bequest
+        - Tight Coupling
+        - Duplicated Code
+        - Swallowed Exception
+        - Callback Pyramid
+        - Circular Dependency
+        - Leaky Abstraction
+        - Public Mutable State
+        - Untested Recursive Update
+        - TODO Comment
+        - Magic Number
+        - Inconsistent Naming
+        - Risky Third-Party Dependency
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: e.g. TypeScript
+    validations:
+      required: true
+  - type: textarea
+    id: csv
+    attributes:
+      label: CSV row
+      description: In the bug list (press B), click Export CSV and paste the row for this finding.
+      render: text
+  - type: textarea
+    id: code
+    attributes:
+      label: Smallest code that triggers it
+      description: The shorter the better. A public repo link plus the file and line works too.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this not a problem?
+    validations:
+      required: true

@@ -1,0 +1,41 @@
+title: "[Q&A] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for asking! Check the [wiki](https://github.com/operator888/SoftwareCity/wiki) and the [FAQ](https://github.com/operator888/SoftwareCity/wiki/FAQ) first; your answer may already be there.
+        When someone solves it, click **Mark as answer** so the next person finds it quickly.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and what happened instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where are you running Software City?
+      options:
+        - softwarecity.eu (in the browser)
+        - Built from source (npm run dev / dist/)
+        - Self-hosted copy
+        - Software City: Patrol (Steam)
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and operating system
+      placeholder: e.g. Chrome 131 on macOS 15
+  - type: input
+    id: language
+    attributes:
+      label: Language(s) of the code you opened
+      placeholder: e.g. TypeScript, Python
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
+      description: Drag images in here. Please remove anything private from code you share.

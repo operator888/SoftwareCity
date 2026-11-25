@@ -1,0 +1,17 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🙏 Ask a question
+    url: https://github.com/operator888/SoftwareCity/discussions/categories/q-a
+    about: Questions about using or building Software City belong in Discussions.
+  - name: 💡 Share an idea
+    url: https://github.com/operator888/SoftwareCity/discussions/categories/ideas
+    about: Feature ideas start in Discussions; the best ones become roadmap issues.
+  - name: 🐞 Report a false positive
+    url: https://github.com/operator888/SoftwareCity/discussions/categories/false-positives
+    about: A detector flagged code that is fine? Post it here with the CSV row.
+  - name: 🔒 Report a security issue
+    url: https://github.com/operator888/SoftwareCity/blob/main/SECURITY.md
+    about: Please report security issues privately, not in a public issue.
+  - name: 💼 Commercial licence
+    url: https://github.com/operator888/SoftwareCity/blob/main/COMMERCIAL.md
+    about: Using Software City at work or in a product? Here is how to get a licence.
