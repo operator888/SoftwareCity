@@ -1,0 +1,36 @@
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome: new features, detectors, languages, patterns, or ways to make the city easier to read.
+        Have a look at the [roadmap board](https://github.com/operator888/SoftwareCity/projects) first; if your idea is already there, a 👍 on that issue helps more than a new post.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - The 3D city and navigation
+        - Bug detectors
+        - Language support / parser
+        - Pattern library and lessons
+        - Diagrams, search, export
+        - VR flight
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would it solve?
+      description: Describe the situation you were in when you wished for this.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How could it work? Sketches and screenshots are welcome.
+    validations:
+      required: true
