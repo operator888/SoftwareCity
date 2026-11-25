@@ -13,6 +13,8 @@ Everything runs in your browser. Your code never leaves your machine.
 
 Website: **[softwarecity.eu](https://softwarecity.eu)**
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-support%20Software%20City-ffbf5a?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/theodorosdc)
+
 ## What is in this repository
 
 | Folder | What it is |
@@ -70,6 +72,12 @@ Questions, ideas and screenshots of your city go to
 [Discussions](https://github.com/operator888/SoftwareCity/discussions).
 The user guide is in the [wiki](https://github.com/operator888/SoftwareCity/wiki),
 and the plans are on the [roadmap board](https://github.com/operator888/SoftwareCity/projects).
+
+## Support the project
+
+Software City is built by one person. If it helped you see your code differently,
+you can [buy me a coffee](https://buymeacoffee.com/theodorosdc). It pays for
+the time that goes into new detectors, languages and lessons.
 
 ## Contributing
 
